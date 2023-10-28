@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github|Finder</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Handjet:wght@100;200;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB+klEQVR4nO2WTUhUURTHf4YuBEcTFINZSKBC6CISpSlFI0EobNFChLJttAkEwVHcqCBoi7FN4EIRXEnr2gZJG1cSuCiCUNCNK/GDyq+4cAYej3vue+/OzG7+cFfv/3He4d5zL5ThhyqgA3gMDADdQD0lRhMwDmwBf4Fry9oBZoVbNKSABUeobf0BloGbhYbfA/YSBIfXbyDjG/4EOCkgPL/+AU+ThncWKTy/zoAHccPrgP2QwQegBZgEDh1BR8AMcAeYC307AGrjFLBkMR4NfE8Dq0AWeCVrAlgH2gK8FxYfs5mdSAPnFqExS4qXFh9zkppdommltab1SZFVvMycULFtEVwAvR4F9Io27PddE1Qr7V/DHysWvyttbN9VWubz93n0KJ73beSHCrmmwDFu87QOpj6FnCpBAUM2cptCNoX54pHimdHu+HML+ZNneAXwWSnglib6qggWgRsJwg33neL1yyUcc8z5TWAQqHToK4XzzeHz3lVAI3AsxH2ZZuHL56dyjhtivh3ao9o3HyBvyDUafA29dminIsI/EgM1wA8RXMqGGZaO7EqXNNx2hB9HXUThp9ipCHMk23zXyvh9jscZPhEDc9c/A0Zi6Gzhb/FElxyboGGSAk5DjxnvcZqTd53ZE1G4kvAvQCtFRJM2w0N4A/QXM7gMSon/xCQ6Srx9zgIAAAAASUVORK5CYII=" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/index-661d7fcc.css">
+</head>
+<body>
+    <div class="wrapper w-[100wh] h-[100vh] font-Dot">
+        <div class="flex flex-col items-center">
+            <div class="flex gap-16 items-center">
+                <h1 class="mt-20 mb-10 text-[25px]">Search User By UserName | GitHub</h1>
+                <button onclick="handledarklight()"><span><i id="icon" class=""></i></span></button>
+            </div>
+            <div class="input-Container flex gap-5 justify-center">
+                <input type="text" class="border  m-5 px-5 text-black" placeholder="Enter UserName..." id="input">
+                <button type="submit" onclick="getUser()" class="text-[20px] " id="button">Submit</button>
+            </div>
+            <div class="userInfo-Container flex flex-col justify-evenly mt-16 mb-[100px] w-[30vw] opacity-0">
+                <div class="header flex justify-around"> 
+                    <p class="gap-3"><i class="ri-map-pin-line"></i><span id="location"></span></p>
+                    <img id="image" alt="User-Image" class="border w-[100px] h-[100px] rounded-full">
+                    <p id="user-id"></p>
+                </div>
+
+                <div class="bio w-[30vw] text-center mt-10"></div>
+
+                <div class="cards flex gap-10 w-[30vw] justify-evenly mt-16">
+                    <div class="card1 w-[10vw] h-[10vh] flex flex-col items-center gap-10 t  ">
+                        <p>FOLLOWERS</p>
+                        <p id="followers"></p>
+                    </div>
+
+                    <div class="card2 w-[10vw] h-[10vh] flex flex-col items-center gap-10 border-l">
+                        <p>FOLLOWINGS</p>
+                        <p id="followings"></p>
+                    </div>
+
+                    <div class="card3 w-[10vw] h-[10vh] flex flex-col items-center gap-10 border-l ">
+                        <p>REPOS</p>
+                        <p id="repos"></p>
+                    </div>
+                </div>
+
+
+
+            </div> 
+        </div>
+    </div>
+    <!-- adsjhafjkha -->
+    
+    <script src="sctipt.js"></script>
+</body>
+</html>
