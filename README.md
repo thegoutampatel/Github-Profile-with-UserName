@@ -3,8 +3,8 @@
   <a href="https://github-profile-with-username.netlify.app/"> github-profile-with-username.netlify.in</a>
 </h2>
 
-<p>With this You find github profile with your user-name 🙃</p>
-<p>I create this website Using Tailwind Css, HTML and Basic JavaScript 🕸️</p>
+<p>-> With this You find github profile with your user-name 🙃</p>
+<p>-> I create this website Using Tailwind Css, HTML and Basic JavaScript 🕸️</p>
 
 <div>
   <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/142505698/278794771-77c89264-7f48-443a-86d5-b4c1ded45699.jpeg">
