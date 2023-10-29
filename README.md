@@ -9,7 +9,7 @@ Weather App Create using HTML, TailWindCss, JavaScript
    https://api.github.com/user
 ```
 ## Deploying this project using Netlify
-<a href="https://github-profile-with-username.netlify.app/"> Preview<a/>
+➢ <a href="https://github-profile-with-username.netlify.app/">To Live Preview ⎋<a/>
 
 ## Features
 - Toggle in Light/Dark Mode
