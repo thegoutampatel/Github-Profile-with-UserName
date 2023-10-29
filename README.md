@@ -1,6 +1,10 @@
 # <a href="https://github-profile-with-username.netlify.app/"> Github Profile with UserName <a/>
 
-Weather App Create using HTML, TailWindCss, JavaScript
+⚡️ Weather App Create using
+☞ HTML
+☞ Tailwind Css
+☞ Css
+☞ JavaScript
 ## API Use in this Project
 
 #### Github API
